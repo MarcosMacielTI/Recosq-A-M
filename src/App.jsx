@@ -147,7 +147,7 @@ export default function App() {
           </p>
           <a 
             // Substitua os zeros pelo SEU NÚMERO DE WHATSAPP com DDD (ex: 5511999999999)
-            href="https://wa.me/5500000000000?text=Oi!%20Eu%20vi%20o%20site%20e...%20eu%20aceito%20o%20café!%20❤️" 
+            href="https://wa.me/5592984281607?text=Oi!%20Eu%20vi%20o%20site%20e...%20eu%20aceito%20o%20café!%20❤️" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-green-300/50 flex items-center gap-2"
