@@ -6,28 +6,220 @@ export default function App() {
   const [noPosition, setNoPosition] = useState({ x: null, y: null });
   const [isHoveringNo, setIsHoveringNo] = useState(false);
 
-  // Textos e imagens (VOCÊ VAI ALTERAR AS IMAGENS AQUI)
+  // Textos e imagens (COLOQUE AS IMAGENS JPG NA PASTA: public/images/)
   const memories = [
+    // ===== 2024: COMEÇO DA HISTÓRIA =====
     {
       id: 1,
-      text: "Lembra de como a gente sorria à toa?",
-      // Substitua o link abaixo pela URL da sua foto
-      img: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=800",
+      year: 2024,
+      text: "Tudo começou quando você entrou na minha vida...",
+      img: "/images/2024-01.jpg",
       rotation: "-rotate-3"
     },
     {
       id: 2,
-      text: "Dos nossos momentos que pareciam cenas de filme...",
-      // Substitua o link abaixo pela URL da sua foto
-      img: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&q=80&w=800",
+      year: 2024,
+      text: "Aquele primeiro sorriso que me fez perder a cabeça.",
+      img: "/images/2024-02.jpg",
       rotation: "rotate-2"
     },
     {
       id: 3,
-      text: "Sinceramente? Eu sinto falta de cada detalhe seu.",
-      // Substitua o link abaixo pela URL da sua foto
-      img: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?auto=format&fit=crop&q=80&w=800",
+      year: 2024,
+      text: "Lembra de como a gente sorria à toa?",
+      img: "/images/2024-03.jpg",
       rotation: "-rotate-1"
+    },
+    {
+      id: 4,
+      year: 2024,
+      text: "Conversas que duravam até o amanhecer.",
+      img: "/images/2024-04.jpg",
+      rotation: "rotate-3"
+    },
+    {
+      id: 5,
+      year: 2024,
+      text: "Aquele abraço que foi o melhor de todos.",
+      img: "/images/2024-05.jpg",
+      rotation: "-rotate-2"
+    },
+    {
+      id: 6,
+      year: 2024,
+      text: "Vocês ficam lindos juntos... disso todo mundo falava.",
+      img: "/images/2024-06.jpg",
+      rotation: "rotate-1"
+    },
+    {
+      id: 7,
+      year: 2024,
+      text: "Aquele passeio que foi perfeito demais pra ser real.",
+      img: "/images/2024-07.jpg",
+      rotation: "-rotate-1"
+    },
+    {
+      id: 8,
+      year: 2024,
+      text: "Seus olhos brilhando quando você me viu.",
+      img: "/images/2024-08.jpg",
+      rotation: "rotate-2"
+    },
+    {
+      id: 9,
+      year: 2024,
+      text: "Risos que ecoavam por todos os lugares onde a gente ia.",
+      img: "/images/2024-09.jpg",
+      rotation: "-rotate-3"
+    },
+    {
+      id: 10,
+      year: 2024,
+      text: "O moment em que soube que você era diferente de todos.",
+      img: "/images/2024-10.jpg",
+      rotation: "rotate-1"
+    },
+    // ===== 2025: CRESCIMENTO =====
+    {
+      id: 11,
+      year: 2025,
+      text: "Você se tornou meu melhor amigo nesse ano.",
+      img: "/images/2025-01.jpg",
+      rotation: "-rotate-2"
+    },
+    {
+      id: 12,
+      year: 2025,
+      text: "Nossos segredos compartilhados só de vocês dois sabem.",
+      img: "/images/2025-02.jpg",
+      rotation: "rotate-3"
+    },
+    {
+      id: 13,
+      year: 2025,
+      text: "Playlist especial que a gente criou juntos.",
+      img: "/images/2025-03.jpg",
+      rotation: "-rotate-1"
+    },
+    {
+      id: 14,
+      year: 2025,
+      text: "Você cuidando de mim quando eu estava mal.",
+      img: "/images/2025-04.jpg",
+      rotation: "rotate-2"
+    },
+    {
+      id: 15,
+      year: 2025,
+      text: "Aquele passeio que a gente fez e não quereria voltar.",
+      img: "/images/2025-05.jpg",
+      rotation: "-rotate-2"
+    },
+    {
+      id: 16,
+      year: 2025,
+      text: "Momentos que viraram nossas piadas internas.",
+      img: "/images/2025-06.jpg",
+      rotation: "rotate-1"
+    },
+    {
+      id: 17,
+      year: 2025,
+      text: "Você me fazendo ver a vida com outros olhos.",
+      img: "/images/2025-07.jpg",
+      rotation: "-rotate-3"
+    },
+    {
+      id: 18,
+      year: 2025,
+      text: "Aquele dia especial que completa nosso ano juntos.",
+      img: "/images/2025-08.jpg",
+      rotation: "rotate-2"
+    },
+    {
+      id: 19,
+      year: 2025,
+      text: "Você sempre ali, nos melhores e piores momentos.",
+      img: "/images/2025-09.jpg",
+      rotation: "-rotate-1"
+    },
+    {
+      id: 20,
+      year: 2025,
+      text: "O ano em que você virou meu tudo.",
+      img: "/images/2025-10.jpg",
+      rotation: "rotate-3"
+    },
+    // ===== 2026: PRESENTE =====
+    {
+      id: 21,
+      year: 2026,
+      text: "Sinceramente? Eu sinto falta de cada detalhe seu.",
+      img: "/images/2026-01.jpg",
+      rotation: "-rotate-1"
+    },
+    {
+      id: 22,
+      year: 2026,
+      text: "Aquele último abraço que não devia ter terminado.",
+      img: "/images/2026-02.jpg",
+      rotation: "rotate-2"
+    },
+    {
+      id: 23,
+      year: 2026,
+      text: "Dos nossos momentos que pareciam cenas de filme...",
+      img: "/images/2026-03.jpg",
+      rotation: "-rotate-2"
+    },
+    {
+      id: 24,
+      year: 2026,
+      text: "Você me ensinando que o amor é vulnerabilidade.",
+      img: "/images/2026-04.jpg",
+      rotation: "rotate-1"
+    },
+    {
+      id: 25,
+      year: 2026,
+      text: "Cada detalhe seu ocupando espaço permanente no meu coração.",
+      img: "/images/2026-05.jpg",
+      rotation: "-rotate-3"
+    },
+    {
+      id: 26,
+      year: 2026,
+      text: "Você é a pessoa que eu queria ser quando crescer.",
+      img: "/images/2026-06.jpg",
+      rotation: "rotate-2"
+    },
+    {
+      id: 27,
+      year: 2026,
+      text: "Aquele pôr do sol que ficará pra sempre na memória.",
+      img: "/images/2026-07.jpg",
+      rotation: "-rotate-1"
+    },
+    {
+      id: 28,
+      year: 2026,
+      text: "O silêncio confortável que só a gente entendia.",
+      img: "/images/2026-08.jpg",
+      rotation: "rotate-3"
+    },
+    {
+      id: 29,
+      year: 2026,
+      text: "Você deixou muitas pegadas no meu caminho.",
+      img: "/images/2026-09.jpg",
+      rotation: "-rotate-2"
+    },
+    {
+      id: 30,
+      year: 2026,
+      text: "E mesmo tudo diferente agora, nada disso desaparece.",
+      img: "/images/2026-10.jpg",
+      rotation: "rotate-1"
     }
   ];
 
@@ -68,9 +260,14 @@ export default function App() {
         </div>
       )}
 
-      {/* PASSOS 1 a 3: GALERIA DE FOTOS (POLAROIDS) */}
+      {/* PASSOS 1 a 30: GALERIA DE FOTOS (POLAROIDS) */}
       {step > 0 && step <= memories.length && (
         <div className="text-center flex flex-col items-center w-full max-w-sm">
+          {/* Indicador do Ano */}
+          <div className="mb-4 text-sm font-bold text-gray-600 bg-white/60 px-4 py-2 rounded-full backdrop-blur">
+            {memories[step-1].year}
+          </div>
+
           <div className={`bg-white p-4 pb-12 rounded-lg shadow-2xl mb-8 transform transition-all duration-700 ${memories[step-1].rotation} hover:rotate-0 hover:scale-105 relative`}>
             {/* Fita adesiva decorativa */}
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-24 h-6 bg-white/40 backdrop-blur-md rotate-2 border border-white/20 shadow-sm z-10"></div>
@@ -86,17 +283,32 @@ export default function App() {
               "{memories[step-1].text}"
             </p>
           </div>
+
+          {/* Indicador de Progresso */}
+          <div className="mb-6 text-sm text-gray-600 font-medium">
+            {step} de {memories.length}
+          </div>
           
-          <button 
-            onClick={() => setStep(step + 1)}
-            className="flex items-center gap-2 bg-white/80 backdrop-blur text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-white hover:scale-105 transition-all shadow-md"
-          >
-            Próximo <ArrowRight size={18} />
-          </button>
+          {/* Botões de Navegação */}
+          <div className="flex gap-4 justify-center">
+            <button 
+              onClick={() => setStep(step - 1)}
+              disabled={step === 1}
+              className="flex items-center gap-2 bg-white/80 backdrop-blur text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-white hover:scale-105 transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Anterior
+            </button>
+            <button 
+              onClick={() => setStep(step + 1)}
+              className="flex items-center gap-2 bg-white/80 backdrop-blur text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-white hover:scale-105 transition-all shadow-md"
+            >
+              Próximo <ArrowRight size={18} />
+            </button>
+          </div>
         </div>
       )}
 
-      {/* PASSO 4: A GRANDE PERGUNTA */}
+      {/* PASSO 31: A GRANDE PERGUNTA */}
       {step === memories.length + 1 && (
         <div className="text-center animate-fade-in flex flex-col items-center max-w-lg bg-white/80 p-10 rounded-3xl shadow-2xl backdrop-blur-md border border-pink-100">
           <MessageCircleHeart className="text-pink-500 mb-4" size={50} />
@@ -134,7 +346,7 @@ export default function App() {
         </div>
       )}
 
-      {/* PASSO 5: FINAL FELIZ */}
+      {/* PASSO 32: FINAL FELIZ */}
       {step === memories.length + 2 && (
         <div className="text-center animate-fade-in flex flex-col items-center max-w-md">
           <div className="relative">
