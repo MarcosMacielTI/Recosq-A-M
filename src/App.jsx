@@ -13,14 +13,14 @@ export default function App() {
       id: 1,
       year: 2024,
       text: "Tudo começou quando você entrou na minha vida...",
-      img: "/images/2024-01.jpg",
+      img: "/images/2024-01.png",
       rotation: "-rotate-3"
     },
     {
       id: 2,
       year: 2024,
       text: "Aquele primeiro sorriso que me fez perder a cabeça.",
-      img: "/images/2024-02.jpg",
+      img: "/images/2024-02.png",
       rotation: "rotate-2"
     },
     {
@@ -34,49 +34,49 @@ export default function App() {
       id: 4,
       year: 2024,
       text: "Conversas que duravam até o amanhecer.",
-      img: "/images/2024-04.jpg",
+      img: "/images/2024-04.png",
       rotation: "rotate-3"
     },
     {
       id: 5,
       year: 2024,
       text: "Aquele abraço que foi o melhor de todos.",
-      img: "/images/2024-05.jpg",
+      img: "/images/2024-05.png",
       rotation: "-rotate-2"
     },
     {
       id: 6,
       year: 2024,
       text: "Vocês ficam lindos juntos... disso todo mundo falava.",
-      img: "/images/2024-06.jpg",
+      img: "/images/2024-06.png",
       rotation: "rotate-1"
     },
     {
       id: 7,
       year: 2024,
       text: "Aquele passeio que foi perfeito demais pra ser real.",
-      img: "/images/2024-07.jpg",
+      img: "/images/2024-07.png",
       rotation: "-rotate-1"
     },
     {
       id: 8,
       year: 2024,
       text: "Seus olhos brilhando quando você me viu.",
-      img: "/images/2024-08.jpg",
+      img: "/images/2024-08.png",
       rotation: "rotate-2"
     },
     {
       id: 9,
       year: 2024,
       text: "Risos que ecoavam por todos os lugares onde a gente ia.",
-      img: "/images/2024-09.jpg",
+      img: "/images/2024-09.png",
       rotation: "-rotate-3"
     },
     {
       id: 10,
       year: 2024,
       text: "O moment em que soube que você era diferente de todos.",
-      img: "/images/2024-10.jpg",
+      img: "/images/2024-10.png",
       rotation: "rotate-1"
     },
     // ===== 2025: CRESCIMENTO =====
