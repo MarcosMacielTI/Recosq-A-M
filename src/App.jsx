@@ -8,217 +8,224 @@ export default function App() {
 
   // Textos e imagens (COLOQUE AS IMAGENS JPG NA PASTA: public/images/)
   const memories = [
-    // ===== 2024: COMEÇO DA HISTÓRIA =====
+    // ===== 2023: COMEÇO DA HISTÓRIA =====
     {
       id: 1,
-      year: 2024,
+      year: 2023,
       text: "Tudo começou quando você entrou na minha vida...",
-      img: "/images/2024-01.png",
+      img: "/images/2023-01.png",
       rotation: "-rotate-3"
     },
     {
       id: 2,
-      year: 2024,
+      year: 2023,
       text: "Aquele primeiro sorriso que me fez perder a cabeça.",
-      img: "/images/2024-02.png",
+      img: "/images/2023-02.png",
       rotation: "rotate-2"
     },
     {
       id: 3,
-      year: 2024,
+      year: 2023,
       text: "Lembra de como a gente sorria à toa?",
-      img: "/images/2024-03.jpg",
+      img: "/images/2023-03.jpg",
       rotation: "-rotate-1"
     },
     {
       id: 4,
-      year: 2024,
+      year: 2023,
       text: "Conversas que duravam até o amanhecer.",
-      img: "/images/2024-04.png",
+      img: "/images/2023-04.png",
       rotation: "rotate-3"
     },
     {
       id: 5,
-      year: 2024,
+      year: 2023,
       text: "Aquele abraço que foi o melhor de todos.",
-      img: "/images/2024-05.png",
+      img: "/images/2023-05.png",
       rotation: "-rotate-2"
     },
     {
       id: 6,
-      year: 2024,
+      year: 2023,
       text: "Vocês ficam lindos juntos... disso todo mundo falava.",
-      img: "/images/2024-06.png",
+      img: "/images/2023-06.png",
       rotation: "rotate-1"
     },
     {
       id: 7,
-      year: 2024,
+      year: 2023,
       text: "Aquele passeio que foi perfeito demais pra ser real.",
-      img: "/images/2024-07.png",
+      img: "/images/2023-07.png",
       rotation: "-rotate-1"
     },
     {
       id: 8,
-      year: 2024,
+      year: 2023,
       text: "Seus olhos brilhando quando você me viu.",
-      img: "/images/2024-08.png",
+      img: "/images/2023-08.png",
       rotation: "rotate-2"
     },
     {
       id: 9,
-      year: 2024,
+      year: 2023,
       text: "Risos que ecoavam por todos os lugares onde a gente ia.",
-      img: "/images/2024-09.png",
+      img: "/images/2023-09.png",
       rotation: "-rotate-3"
     },
+    // ===== 2024: CRESCIMENTO =====
     {
       id: 10,
       year: 2024,
-      text: "O moment em que soube que você era diferente de todos.",
-      img: "/images/2024-10.png",
-      rotation: "rotate-1"
+      text: "Você se tornou meu melhor amigo nesse ano.",
+      img: "/images/2024-01.png",
+      rotation: "-rotate-2"
     },
-    // ===== 2025: CRESCIMENTO =====
     {
       id: 11,
-      year: 2025,
-      text: "Você se tornou meu melhor amigo nesse ano.",
-      img: "/images/2025-01.jpg",
-      rotation: "-rotate-2"
+      year: 2024,
+      text: "Nossos segredos compartilhados só de vocês dois sabem.",
+      img: "/images/2024-02.jpg",
+      rotation: "rotate-3"
     },
     {
       id: 12,
-      year: 2025,
-      text: "Nossos segredos compartilhados só de vocês dois sabem.",
-      img: "/images/2025-02.jpg",
-      rotation: "rotate-3"
+      year: 2024,
+      text: "Playlist especial que a gente criou juntos.",
+      img: "/images/2024-03.png",
+      rotation: "-rotate-1"
     },
     {
       id: 13,
-      year: 2025,
-      text: "Playlist especial que a gente criou juntos.",
-      img: "/images/2025-03.jpg",
-      rotation: "-rotate-1"
+      year: 2024,
+      text: "Você cuidando de mim quando eu estava mal.",
+      img: "/images/2024-04.jpg",
+      rotation: "rotate-2"
     },
     {
       id: 14,
-      year: 2025,
-      text: "Você cuidando de mim quando eu estava mal.",
-      img: "/images/2025-04.jpg",
-      rotation: "rotate-2"
+      year: 2024,
+      text: "Aquele passeio que a gente fez e não quereria voltar.",
+      img: "/images/2024-05.jpg",
+      rotation: "-rotate-2"
     },
     {
       id: 15,
-      year: 2025,
-      text: "Aquele passeio que a gente fez e não quereria voltar.",
-      img: "/images/2025-05.jpg",
-      rotation: "-rotate-2"
+      year: 2024,
+      text: "Momentos que viraram nossas piadas internas.",
+      img: "/images/2024-06.jpg",
+      rotation: "rotate-1"
     },
     {
       id: 16,
-      year: 2025,
-      text: "Momentos que viraram nossas piadas internas.",
-      img: "/images/2025-06.jpg",
-      rotation: "rotate-1"
+      year: 2024,
+      text: "Você me fazendo ver a vida com outros olhos.",
+      img: "/images/2024-07.png",
+      rotation: "-rotate-3"
     },
     {
       id: 17,
-      year: 2025,
-      text: "Você me fazendo ver a vida com outros olhos.",
-      img: "/images/2025-07.jpg",
-      rotation: "-rotate-3"
+      year: 2024,
+      text: "Aquele dia especial que completa nosso ano juntos.",
+      img: "/images/2024-08.png",
+      rotation: "rotate-2"
     },
     {
       id: 18,
-      year: 2025,
-      text: "Aquele dia especial que completa nosso ano juntos.",
-      img: "/images/2025-08.jpg",
-      rotation: "rotate-2"
+      year: 2024,
+      text: "Você sempre ali, nos melhores e piores momentos.",
+      img: "/images/2024-09.jpg",
+      rotation: "-rotate-1"
     },
     {
       id: 19,
-      year: 2025,
-      text: "Você sempre ali, nos melhores e piores momentos.",
-      img: "/images/2025-09.jpg",
-      rotation: "-rotate-1"
+      year: 2024,
+      text: "O ano em que você virou meu tudo.",
+      img: "/images/2024-10.png",
+      rotation: "rotate-3"
     },
     {
       id: 20,
-      year: 2025,
-      text: "O ano em que você virou meu tudo.",
-      img: "/images/2025-10.jpg",
-      rotation: "rotate-3"
+      year: 2024,
+      text: "Sinceramente? Eu sinto falta de cada detalhe seu.",
+      img: "/images/2024-11.jpg",
+      rotation: "-rotate-1"
     },
-    // ===== 2026: PRESENTE =====
     {
       id: 21,
-      year: 2026,
-      text: "Sinceramente? Eu sinto falta de cada detalhe seu.",
-      img: "/images/2026-01.jpg",
-      rotation: "-rotate-1"
+      year: 2024,
+      text: "Aquele último abraço que não devia ter terminado.",
+      img: "/images/2024-12.jpg",
+      rotation: "rotate-2"
     },
     {
       id: 22,
-      year: 2026,
-      text: "Aquele último abraço que não devia ter terminado.",
-      img: "/images/2026-02.jpg",
-      rotation: "rotate-2"
-    },
-    {
-      id: 23,
-      year: 2026,
+      year: 2024,
       text: "Dos nossos momentos que pareciam cenas de filme...",
-      img: "/images/2026-03.jpg",
+      img: "/images/2024-13.jpg",
       rotation: "-rotate-2"
     },
+    // ===== 2025: PRESENTE =====
     {
-      id: 24,
-      year: 2026,
+      id: 23,
+      year: 2025,
       text: "Você me ensinando que o amor é vulnerabilidade.",
-      img: "/images/2026-04.jpg",
+      img: "/images/2025-01.jpg",
       rotation: "rotate-1"
     },
     {
-      id: 25,
-      year: 2026,
+      id: 24,
+      year: 2025,
       text: "Cada detalhe seu ocupando espaço permanente no meu coração.",
-      img: "/images/2026-05.jpg",
+      img: "/images/2025-02.jpg",
       rotation: "-rotate-3"
     },
     {
-      id: 26,
-      year: 2026,
+      id: 25,
+      year: 2025,
       text: "Você é a pessoa que eu queria ser quando crescer.",
-      img: "/images/2026-06.jpg",
+      img: "/images/2025-03.jpg",
       rotation: "rotate-2"
     },
     {
-      id: 27,
-      year: 2026,
+      id: 26,
+      year: 2025,
       text: "Aquele pôr do sol que ficará pra sempre na memória.",
-      img: "/images/2026-07.jpg",
+      img: "/images/2026-04.jpg",
       rotation: "-rotate-1"
     },
     {
-      id: 28,
-      year: 2026,
+      id: 27,
+      year: 2025,
       text: "O silêncio confortável que só a gente entendia.",
-      img: "/images/2026-08.jpg",
+      img: "/images/2025-05.jpg",
       rotation: "rotate-3"
     },
     {
-      id: 29,
-      year: 2026,
+      id: 28,
+      year: 2025,
       text: "Você deixou muitas pegadas no meu caminho.",
-      img: "/images/2026-09.jpg",
+      img: "/images/2025-06.jpg",
       rotation: "-rotate-2"
     },
     {
-      id: 30,
-      year: 2026,
+      id: 29,
+      year: 2025,
       text: "E mesmo tudo diferente agora, nada disso desaparece.",
-      img: "/images/2026-10.jpg",
+      img: "/images/2025-07.jpg",
+      rotation: "rotate-1"
+    }
+    {
+      id: 30,
+      year: 2025,
+      text: "E mesmo tudo diferente agora, nada disso desaparece.",
+      img: "/images/2025-08.jpg",
+      rotation: "rotate-1"
+    }
+    {
+      id: 31,
+      year: 2025,
+      text: "E mesmo tudo diferente agora, nada disso desaparece.",
+      img: "/images/2025-09.jpg",
       rotation: "rotate-1"
     }
   ];
@@ -272,11 +279,11 @@ export default function App() {
             {/* Fita adesiva decorativa */}
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-24 h-6 bg-white/40 backdrop-blur-md rotate-2 border border-white/20 shadow-sm z-10"></div>
             
-            <div className="w-full h-64 bg-gray-200 rounded overflow-hidden relative group">
+            <div className="w-full bg-gray-200 rounded overflow-hidden relative group">
               <img 
                 src={memories[step-1].img} 
                 alt="Nossa foto" 
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                className="w-full h-auto object-contain group-hover:scale-110 transition-transform duration-700"
               />
             </div>
             <p className="font-handwriting text-xl mt-6 text-gray-700 italic px-2 font-medium">
