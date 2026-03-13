@@ -53,7 +53,7 @@ export default function App() {
       id: 5,
       year: 2023,
       text: "E de repente, aquilo que começou como amizade virou a melhor história da minha vida.",
-      img: "/images/2023-05.webp",
+      img: "/images/2023-05.png",
       rotation: "-rotate-2"
     },
     {
