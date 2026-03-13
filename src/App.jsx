@@ -1,10 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Heart, ArrowRight, Camera, Sparkles, MessageCircleHeart } from 'lucide-react';
 
 export default function App() {
   const [step, setStep] = useState(0);
   const [noPosition, setNoPosition] = useState({ x: null, y: null });
   const [isHoveringNo, setIsHoveringNo] = useState(false);
+  const [currentSong, setCurrentSong] = useState(0);
+  const audioRef = useRef(null);
+
+  const songs = ['/audio/perfect.mp3', '/audio/thousand-years.mp3'];
+
+  useEffect(() => {
+    if (step > 0 && audioRef.current) {
+      audioRef.current.play();
+    }
+  }, [step, currentSong]);
+
+
 
   // Textos e imagens (COLOQUE AS IMAGENS JPG NA PASTA: public/images/)
   const memories = [
@@ -47,7 +59,7 @@ export default function App() {
     {
       id: 6,
       year: 2023,
-      text: "“E sem perceber, aquela amizade simples se transformou no amor mais bonito que eu já vivi",
+      text: "“E sem perceber, aquela amizade simples se transformou no amor mais bonito que eu já vivi.",
       img: "/images/2023-06.png",
       rotation: "rotate-1"
     },
@@ -68,7 +80,7 @@ export default function App() {
     {
       id: 9,
       year: 2023,
-      text: "Quem diria que aquela amizade viraria algo tão especial",
+      text: "Quem diria que aquela amizade viraria algo tão especial.",
       img: "/images/2023-09.png",
       rotation: "-rotate-3"
     },
@@ -83,7 +95,7 @@ export default function App() {
     {
       id: 11,
       year: 2024,
-      text: "Agora não éramos mais só amigos. Você era a minha namorada",
+      text: "Agora não éramos mais só amigos. Você era a minha namorada.",
       img: "/images/2024-02.jpg",
       rotation: "rotate-3"
     },
@@ -303,7 +315,12 @@ Quando a maior prova de amor é deixar de amar. 💔`,
             Eu sei que as coisas estão um pouco diferentes agora, mas eu fiz uma coisinha pra você. Prometo que é rápido.
           </p>
           <button 
-            onClick={() => setStep(1)}
+            onClick={() => {
+              setStep(1);
+              if (audioRef.current) {
+                audioRef.current.play();
+              }
+            }}
             className="group flex items-center gap-2 bg-gradient-to-r from-red-400 to-pink-500 text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition-all shadow-lg hover:shadow-pink-300/50"
           >
             Ver surpresa <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
@@ -436,6 +453,14 @@ Quando a maior prova de amor é deixar de amar. 💔`,
           animation: fadeIn 0.8s ease-out forwards;
         }
       `}} />
+
+      {/* Áudio de fundo */}
+      <audio
+        ref={audioRef}
+        src={songs[currentSong]}
+        onEnded={() => setCurrentSong((prev) => (prev + 1) % songs.length)}
+        preload="auto"
+      />
     </div>
   );
 }
