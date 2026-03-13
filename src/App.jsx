@@ -390,7 +390,7 @@ Quando a maior prova de amor é deixar de amar. 💔`,
             Eu não queria que a nossa história terminasse assim.
           </h2>
           <p className="text-lg mb-10 text-gray-600">
-            Aceita sair comigo para tomar um café, conversar e me dar a chance de te fazer sorrir de novo?
+            Aceita sair comigo para tomar um sorvete, conversar e me dar um dia para te fazer sorrir de novo?
           </p>
           
           <div className="flex gap-4 justify-center items-center relative w-full h-20">
@@ -433,7 +433,7 @@ Quando a maior prova de amor é deixar de amar. 💔`,
           </p>
           <a 
             // Substitua os zeros pelo SEU NÚMERO DE WHATSAPP com DDD (ex: 5511999999999)
-            href="https://wa.me/5592984281607?text=Oi!%20Eu%20vi%20o%20site%20e...%20eu%20aceito%20o%20café!%20❤️" 
+            href="https://wa.me/5592984281607?text=Oi!%20Eu%20vi%20o%20site%20e...%20eu%20aceito%20o%20sorvete!%20❤️" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-green-300/50 flex items-center gap-2"
