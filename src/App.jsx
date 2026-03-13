@@ -169,14 +169,14 @@ export default function App() {
       id: 23,
       year: 2025,
       text: "Você me ensinando que o amor é vulnerabilidade.",
-      img: "/images/2025-01.jpg",
+      img: "/images/2025-01.png",
       rotation: "rotate-1"
     },
     {
       id: 24,
       year: 2025,
       text: "Cada detalhe seu ocupando espaço permanente no meu coração.",
-      img: "/images/2025-02.jpg",
+      img: "/images/2025-02.png",
       rotation: "-rotate-3"
     },
     {
@@ -190,7 +190,7 @@ export default function App() {
       id: 26,
       year: 2025,
       text: "Aquele pôr do sol que ficará pra sempre na memória.",
-      img: "/images/2026-04.jpg",
+      img: "/images/2025-04.jpg",
       rotation: "-rotate-1"
     },
     {
@@ -211,22 +211,64 @@ export default function App() {
       id: 29,
       year: 2025,
       text: "E mesmo tudo diferente agora, nada disso desaparece.",
-      img: "/images/2025-07.jpg",
+      img: "/images/2025-07.png",
       rotation: "rotate-1"
-    }
+    },
     {
       id: 30,
       year: 2025,
       text: "E mesmo tudo diferente agora, nada disso desaparece.",
-      img: "/images/2025-08.jpg",
+      img: "/images/2025-08.png",
       rotation: "rotate-1"
-    }
+    },
     {
       id: 31,
       year: 2025,
       text: "E mesmo tudo diferente agora, nada disso desaparece.",
       img: "/images/2025-09.jpg",
       rotation: "rotate-1"
+    },
+    {
+      id: 32,
+      year: 2025,
+      title: "Quando meu coração te escolheu",
+      text: `Me apaixonei por você, mas não foi pela sua aparência, nem por causa do seu corpo, nem por qualquer outra coisa fútil. Me apaixonei por você pela pessoa que você é. Não precisei te tocar, não precisei te sentir inteira. Desde o primeiro instante eu senti que seria você, e meu coração te escolheu.
+
+A sua risada, seu jeitinho de falar, seu sorriso… tudo em você me completa. Eu só quero apenas você. Não preciso de mais nada além de você, e somente você. Saiba disso sempre. ❤️`,
+      rotation: "rotate-2"
+    },
+    {
+      id: 33,
+      year: 2025,
+      title: "Você nunca saiu dos meus pensamentos",
+      text: `Eu ia falar que só sinto sua falta na madrugada, mas seria uma mentira muito mal contada. Eu penso em você toda hora, na hora do sol se pôr até o amanhecer. Eu só queria conseguir te esquecer, mentira, eu só queria poder te ver, te ter, te olhar, te abraçar, poder te amar. Eu sinto sua falta toda hora, todo dia, todo milésimo. Às vezes eu me deito pra te esquecer, mas você acaba aparecendo nos meus sonhos sem querer. Ninguém nunca vai ocupar o seu lugar, você faz falta no meu coração. Eu queria que fosse mais fácil te deixar pra trás, mas a cada passo que eu dou eu te quero mais. Não, não quero te esquecer. Eu não queria parar de falar com você, eu não quero te perder. E eu sei que você me ama igual eu amo você, e eu sei que você tenta me esquecer. No fundo a gente sabe que era pra ser, no fundo a gente sabe que um dia eu ainda vou me casar com você, e não importa quanto tempo demore pra te rever. ❤️`,
+      rotation: "-rotate-2"
+    },
+    {
+      id: 34,
+      year: 2025,
+      title: "Você lembrou dos meus erros, mas esqueceu do meu amor",
+      text: `Você focou tanto nos meus erros, mas nem tudo que eu fiz por você você lembrou, e isso dói, porque eu me entreguei completamente. Amei sem reservas, fiz de tudo pra te ver feliz, mas no final tudo o que ficou registrado na sua memória foram os momentos em que eu falhei.
+
+Às vezes eu não fui perfeito. Você se lembra de cada palavra que eu disse no calor de uma discussão, mas esquece de todas as vezes que eu engoli o orgulho pra fazer as pazes com você. Você guardou na memória todos os meus defeitos, mas não se lembrou dos incontáveis dias que eu cancelei tudo pra estar com você, de eu te ajudar mesmo sem você pedir ajuda.
+
+Nos momentos de dificuldade sua eu estava lá, te apoiando em tudo. Mesmo nos momentos bons e ruins eu estava lá. Não importa o que eu estava fazendo, eu largava tudo só para estar com você. Porque, no momento mais difícil da sua vida (dia 20/08/2023, domingo, campeonato de xadrez, no dia em que você chorou e chorou muito e me ligou, ligou e ligou mais de 10 vezes e eu não atendi e não estava lá com você), desde então sempre eu coloquei você em primeiro lugar.
+
+Você gravou cada momento em que eu não soube expressar o meu amor do jeito que você queria, mas apagou todas as vezes em que, de mil maneiras, tentei mostrar o quanto você era importante para mim. Eu te amava de verdade, te amava com todas as suas imperfeições e te aceitava do jeito que você era. Eu só queria ter conseguido te fazer feliz. 💔.`,
+      rotation: "rotate-1"
+    },
+    {
+      id: 35,
+      year: 2025,
+      title: "Amar também é deixar ir",
+      text: `Quem diria que meu último gesto de amor por você seria me obrigar a não falar mais com você. Eu te amo tanto que agora eu preciso esconder que eu te amo. Olhar suas fotos, reler nossas conversas, seus gestos de carinho comigo, mas fechar e entender que não é pra ser.
+
+Deixar quem a gente ama ir embora é a maior prova de amor que eu estou fazendo. Saber que eu amo você, mas deixando espaço aberto para que outras pessoas cuidem de você, entrem na sua vida, abracem, beijem, deem carinho — tudo que eu não vou poder mais dar, porque infelizmente eu tenho que abrir mão de você.
+
+Só quem já se apaixonou de verdade sabe a dor de, de três em três minutos, ficar indo ver as mensagens pra ver se você mandou alguma coisa, e ver que não tem nada, e você não falou nada. Isso dói.
+
+Quando a maior prova de amor é deixar de amar. 💔`,
+      rotation: "-rotate-3"
     }
   ];
 
@@ -241,6 +283,8 @@ export default function App() {
     setNoPosition({ x: randomX, y: randomY });
     setIsHoveringNo(true);
   };
+
+  const current = step > 0 ? memories[step - 1] : null;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 via-red-50 to-purple-100 flex flex-col items-center justify-center p-4 font-sans text-gray-800 overflow-hidden relative">
@@ -267,28 +311,34 @@ export default function App() {
         </div>
       )}
 
-      {/* PASSOS 1 a 30: GALERIA DE FOTOS (POLAROIDS) */}
+      {/* PASSOS 1 a N: GALERIA DE FOTOS (POLAROIDS) */}
       {step > 0 && step <= memories.length && (
         <div className="text-center flex flex-col items-center w-full max-w-sm">
-          {/* Indicador do Ano */}
-          <div className="mb-4 text-sm font-bold text-gray-600 bg-white/60 px-4 py-2 rounded-full backdrop-blur">
-            {memories[step-1].year}
-          </div>
+          <div className={`bg-white p-4 pb-12 rounded-lg shadow-2xl mb-8 transform transition-all duration-700 ${current.rotation} hover:rotate-0 hover:scale-105 relative`}>
+            {current.img && (
+              <div className="absolute top-3 left-3 bg-white/90 text-sm font-bold text-gray-700 px-3 py-1 rounded-full shadow-sm z-10">
+                {current.year}
+              </div>
+            )}
 
-          <div className={`bg-white p-4 pb-12 rounded-lg shadow-2xl mb-8 transform transition-all duration-700 ${memories[step-1].rotation} hover:rotate-0 hover:scale-105 relative`}>
-            {/* Fita adesiva decorativa */}
-            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-24 h-6 bg-white/40 backdrop-blur-md rotate-2 border border-white/20 shadow-sm z-10"></div>
-            
-            <div className="w-full bg-gray-200 rounded overflow-hidden relative group">
-              <img 
-                src={memories[step-1].img} 
-                alt="Nossa foto" 
-                className="w-full h-auto object-contain group-hover:scale-110 transition-transform duration-700"
-              />
+            {current.img && (
+              <div className="w-full bg-gray-200 rounded overflow-hidden relative group z-0">
+                <img 
+                  src={current.img} 
+                  alt="Nossa foto" 
+                  className="w-full h-auto object-contain group-hover:scale-110 transition-transform duration-700"
+                />
+              </div>
+            )}
+
+            <div className="text-left mt-6 px-2">
+              {current.title && (
+                <h2 className="text-2xl font-bold mb-3 text-gray-800">{current.title}</h2>
+              )}
+              <p className="font-handwriting text-xl text-gray-700 italic whitespace-pre-wrap">
+                {current.text}
+              </p>
             </div>
-            <p className="font-handwriting text-xl mt-6 text-gray-700 italic px-2 font-medium">
-              "{memories[step-1].text}"
-            </p>
           </div>
 
           {/* Indicador de Progresso */}
