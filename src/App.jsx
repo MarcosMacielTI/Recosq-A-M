@@ -12,63 +12,63 @@ export default function App() {
     {
       id: 1,
       year: 2023,
-      text: "Tudo começou quando você entrou na minha vida...",
+      text: "Só amigos: Tudo começou com uma simples amizade… sem saber que ali nascia algo muito maior.",
       img: "/images/2023-01.png",
       rotation: "-rotate-3"
     },
     {
       id: 2,
       year: 2023,
-      text: "Aquele primeiro sorriso que me fez perder a cabeça.",
+      text: "Só amigos: No começo éramos só amigos, conversas simples e risadas sem imaginar o que o destino preparava.",
       img: "/images/2023-02.png",
       rotation: "rotate-2"
     },
     {
       id: 3,
       year: 2023,
-      text: "Lembra de como a gente sorria à toa?",
+      text: "Entre mensagens, risadas e momentos juntos… algo diferente começou a nascer.",
       img: "/images/2023-03.jpg",
       rotation: "-rotate-1"
     },
     {
       id: 4,
       year: 2023,
-      text: "Conversas que duravam até o amanhecer.",
+      text: "Quando percebi, você já era a pessoa que eu mais queria por perto. A amizade virou carinho… o carinho virou amor.",
       img: "/images/2023-04.png",
       rotation: "rotate-3"
     },
     {
       id: 5,
       year: 2023,
-      text: "Aquele abraço que foi o melhor de todos.",
+      text: "E de repente, aquilo que começou como amizade virou a melhor história da minha vida.",
       img: "/images/2023-05.png",
       rotation: "-rotate-2"
     },
     {
       id: 6,
       year: 2023,
-      text: "Vocês ficam lindos juntos... disso todo mundo falava.",
+      text: "“E sem perceber, aquela amizade simples se transformou no amor mais bonito que eu já vivi",
       img: "/images/2023-06.png",
       rotation: "rotate-1"
     },
     {
       id: 7,
       year: 2023,
-      text: "Aquele passeio que foi perfeito demais pra ser real.",
+      text: "E foi ali que percebi que nossa história estava mudando.",
       img: "/images/2023-07.png",
       rotation: "-rotate-1"
     },
     {
       id: 8,
       year: 2023,
-      text: "Seus olhos brilhando quando você me viu.",
+      text: "Quem diria que duas pessoas que começaram como amigos acabariam construindo uma história tão linda juntos.",
       img: "/images/2023-08.png",
       rotation: "rotate-2"
     },
     {
       id: 9,
       year: 2023,
-      text: "Risos que ecoavam por todos os lugares onde a gente ia.",
+      text: "Quem diria que aquela amizade viraria algo tão especial",
       img: "/images/2023-09.png",
       rotation: "-rotate-3"
     },
@@ -76,49 +76,49 @@ export default function App() {
     {
       id: 10,
       year: 2024,
-      text: "Você se tornou meu melhor amigo nesse ano.",
+      text: "2024 chegou e nossa história continuou.",
       img: "/images/2024-01.png",
       rotation: "-rotate-2"
     },
     {
       id: 11,
       year: 2024,
-      text: "Nossos segredos compartilhados só de vocês dois sabem.",
+      text: "Agora não éramos mais só amigos. Você era a minha namorada",
       img: "/images/2024-02.jpg",
       rotation: "rotate-3"
     },
     {
       id: 12,
       year: 2024,
-      text: "Playlist especial que a gente criou juntos.",
+      text: "Entre risadas e abraços fomos escrevendo nossa história.",
       img: "/images/2024-03.png",
       rotation: "-rotate-1"
     },
     {
       id: 13,
       year: 2024,
-      text: "Você cuidando de mim quando eu estava mal.",
+      text: "Cada momento ao seu lado ficou ainda mais especial.",
       img: "/images/2024-04.jpg",
       rotation: "rotate-2"
     },
     {
       id: 14,
       year: 2024,
-      text: "Aquele passeio que a gente fez e não quereria voltar.",
+      text: "Aquele passeio que a gente fez e você se tornou minha companhia favorita.",
       img: "/images/2024-05.jpg",
       rotation: "-rotate-2"
     },
     {
       id: 15,
       year: 2024,
-      text: "Momentos que viraram nossas piadas internas.",
+      text: "Com você tudo ficou mais leve.",
       img: "/images/2024-06.jpg",
       rotation: "rotate-1"
     },
     {
       id: 16,
       year: 2024,
-      text: "Você me fazendo ver a vida com outros olhos.",
+      text: "Cada momento juntos virou uma lembrança especial.",
       img: "/images/2024-07.png",
       rotation: "-rotate-3"
     },
@@ -139,28 +139,28 @@ export default function App() {
     {
       id: 19,
       year: 2024,
-      text: "O ano em que você virou meu tudo.",
+      text: "E cada dia ao seu lado fazia tudo valer a pena.",
       img: "/images/2024-10.png",
       rotation: "rotate-3"
     },
     {
       id: 20,
       year: 2024,
-      text: "Sinceramente? Eu sinto falta de cada detalhe seu.",
+      text: "Nosso amor ficou mais forte e cada um apoiando um a outro.",
       img: "/images/2024-11.jpg",
       rotation: "-rotate-1"
     },
     {
       id: 21,
       year: 2024,
-      text: "Aquele último abraço que não devia ter terminado.",
+      text: "E nossa história continuou ficando cada vez mais bonita.",
       img: "/images/2024-12.jpg",
       rotation: "rotate-2"
     },
     {
       id: 22,
       year: 2024,
-      text: "Dos nossos momentos que pareciam cenas de filme...",
+      text: "E eu tinha certeza de que queria você ao meu lado.",
       img: "/images/2024-13.jpg",
       rotation: "-rotate-2"
     },
@@ -168,7 +168,7 @@ export default function App() {
     {
       id: 23,
       year: 2025,
-      text: "Você me ensinando que o amor é vulnerabilidade.",
+      text: "2025 chegou… e a gente trabalhando e nossa história continuou forte.",
       img: "/images/2025-01.png",
       rotation: "rotate-1"
     },
@@ -182,49 +182,49 @@ export default function App() {
     {
       id: 25,
       year: 2025,
-      text: "Você é a pessoa que eu queria ser quando crescer.",
+      text: "Cada momento ao seu lado era especial, em cada beijo e em cada abraço.",
       img: "/images/2025-03.jpg",
       rotation: "rotate-2"
     },
     {
       id: 26,
       year: 2025,
-      text: "Aquele pôr do sol que ficará pra sempre na memória.",
+      text: "Os momentos que passamos lá em cima sempre vão ficar guardados na memória.",
       img: "/images/2025-04.jpg",
       rotation: "-rotate-1"
     },
     {
       id: 27,
       year: 2025,
-      text: "O silêncio confortável que só a gente entendia.",
+      text: "O silêncio confortável que só a gente entendia, e os carinhos e beijos que trocávamos lá em cima.",
       img: "/images/2025-05.jpg",
       rotation: "rotate-3"
     },
     {
       id: 28,
       year: 2025,
-      text: "Você deixou muitas pegadas no meu caminho.",
+      text: "E mesmo com o tempo passando, a felicidade de estar com você continua a mesma.",
       img: "/images/2025-06.jpg",
       rotation: "-rotate-2"
     },
     {
       id: 29,
       year: 2025,
-      text: "E mesmo tudo diferente agora, nada disso desaparece.",
+      text: "Com o tempo, nosso amor amadureceu e ficou ainda mais bonito.",
       img: "/images/2025-07.png",
       rotation: "rotate-1"
     },
     {
       id: 30,
       year: 2025,
-      text: "E mesmo tudo diferente agora, nada disso desaparece.",
+      text: "Cada dia com você virou uma lembrança que eu quero guardar para sempre.",
       img: "/images/2025-08.png",
       rotation: "rotate-1"
     },
     {
       id: 31,
       year: 2025,
-      text: "E mesmo tudo diferente agora, nada disso desaparece.",
+      text: "Nosso amor cresceu com o tempo, e continua ficando cada vez mais bonito.",
       img: "/images/2025-09.jpg",
       rotation: "rotate-1"
     },
