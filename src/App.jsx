@@ -25,35 +25,35 @@ export default function App() {
       id: 1,
       year: 2023,
       text: "Só amigos: Tudo começou com uma simples amizade… sem saber que ali nascia algo muito maior.",
-      img: "/images/2023-01.png",
+      img: "/images/2023-01.webp",
       rotation: "-rotate-3"
     },
     {
       id: 2,
       year: 2023,
       text: "Só amigos: No começo éramos só amigos, conversas simples e risadas sem imaginar o que o destino preparava.",
-      img: "/images/2023-02.png",
+      img: "/images/2023-02.webp",
       rotation: "rotate-2"
     },
     {
       id: 3,
       year: 2023,
       text: "Entre mensagens, risadas e momentos juntos… algo diferente começou a nascer.",
-      img: "/images/2023-03.jpg",
+      img: "/images/2023-03.webp",
       rotation: "-rotate-1"
     },
     {
       id: 4,
       year: 2023,
       text: "Quando percebi, você já era a pessoa que eu mais queria por perto. A amizade virou carinho… o carinho virou amor.",
-      img: "/images/2023-04.png",
+      img: "/images/2023-04.webp",
       rotation: "rotate-3"
     },
     {
       id: 5,
       year: 2023,
       text: "E de repente, aquilo que começou como amizade virou a melhor história da minha vida.",
-      img: "/images/2023-05.png",
+      img: "/images/2023-05.webp",
       rotation: "-rotate-2"
     },
     {
